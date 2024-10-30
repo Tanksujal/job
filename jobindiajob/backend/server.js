@@ -5,7 +5,7 @@ const cookieparser = require('cookie-parser')
 const cors = require('cors')
 const path = require('path')
 const app = express()
-const port = 3000
+const port = 4000
 dotenv.config()
 //db connect
 Connectdb()

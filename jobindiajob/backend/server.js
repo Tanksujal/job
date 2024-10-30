@@ -11,7 +11,7 @@ dotenv.config()
 Connectdb()
 //route connect
 const corsOptions = {
-    origin: 'http://localhost:5173', // Replace with the client URL
+    origin: 'https://job-virid.vercel.app', // Replace with the client URL
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
 };
 app.use(cors(corsOptions))

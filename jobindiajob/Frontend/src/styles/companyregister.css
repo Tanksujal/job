@@ -1,0 +1,162 @@
+/* General Styles */
+
+
+/* Container */
+.register-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.register-left {
+    width: 50%;
+    background-color: #0073b1;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.register-left img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.register-left h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.register-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.register-left ul li {
+    margin-bottom: 10px;
+}
+
+/* Right Side Form */
+.register-right {
+    width: 50%;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.register-right h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.register-right p.subtitle {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #777;
+}
+
+.register-form .form-group {
+    margin-bottom: 20px;
+}
+
+.register-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.register-form input, 
+.register-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.register-form small {
+    color: #777;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Select Styling */
+.register-form select {
+    padding: 10px;
+    appearance: none;
+    background: url('data:image/svg+xml;base64,...') no-repeat right 10px center; /* Replace with a down-arrow icon */
+    background-size: 10px;
+}
+
+.companyregister-button {
+    display: inline-block;
+    background-color: #0073b1;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
+}
+
+.register-button:hover {
+    background-color: #005a8b;
+}
+
+/* Google Sign In */
+.google-sign-in {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.google-sign-in span {
+    display: inline-block;
+    margin: 20px 0;
+    color: #777;
+}
+
+.google-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.google-button img {
+    margin-right: 10px;
+}
+
+.google-button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .register-container {
+        flex-direction: column;
+    }
+
+    .register-left,
+    .register-right {
+        width: 100%;
+    }
+}

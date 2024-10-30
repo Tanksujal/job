@@ -1,0 +1,7 @@
+.add-job-post-form{
+    background-color: #ffffff!important;
+    box-shadow: 0rem 0.3125rem 0.3125rem 0rem rgba(82, 63, 105, 0.05)!important;
+    border:1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 10px 30px;
+}

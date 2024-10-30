@@ -1,0 +1,146 @@
+.register-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .register-left {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .register-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .register-benefits {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .register-benefits li {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+  }
+  
+  .register-benefits li::before {
+    content: '✓';
+    color: #4CAF50;
+    position: absolute;
+    left: 0;
+  }
+  
+  .register-right {
+    flex: 1;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  small {
+    display: block;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .mobile-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .country-code {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .mobile-input input {
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .work-status-options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .work-status-option {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .work-status-option input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .google-sign-in {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .google-button img {
+    margin-right: 10px;
+  }

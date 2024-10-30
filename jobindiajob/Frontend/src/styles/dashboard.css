@@ -1,0 +1,57 @@
+/* Dashboard.css */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+  
+  .sidebar .nav-link {
+    color: #333;
+  }
+  
+  .sidebar .nav-link.active {
+    background-color: #fee4e2;
+    color: #ff5733;
+  }
+  
+  .navbar {
+    height: 70px;
+  }
+  
+  .card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  
+  .progress {
+    height: 6px;
+  }
+  
+  .btn-primary {
+    background-color: #ff5733;
+    border-color: #ff5733;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e64a2e;
+    border-color: #e64a2e;
+  }
+  
+  .text-primary {
+    color: #ff5733 !important;
+  }
+  
+  .bg-primary {
+    background-color: #ff5733 !important;
+  }
+  /* .sidebar .dropdown-menu {
+    position: static !important;
+    transform: none !important;
+    width: 100%;
+  }
+  
+  .sidebar .dropdown-item.active,
+  .sidebar .dropdown-item:active {
+    background-color: #fee4e2;
+    color: #ff5733;
+  } */
